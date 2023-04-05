@@ -15,6 +15,14 @@
 
 2. This also includes the Exercise Tracker for the patient where they can track their exercise on daily basis as well as weekly basis.
 
+      # Exercise SignUP Page 
+      ![image](https://drive.google.com/uc?export=view&id=1nj-S931RSsvZ63IvYiHJshsA-Inm8thj)
+      
+     # Exercise Listing Page
+      ![image](https://drive.google.com/uc?export=view&id=1FOsEs8vRZEMpsbbX3_gnn5xhN1lK9nPQ)
+      
+      # weekly Report Page
+      ![image](https://drive.google.com/uc?export=view&id=1dHvOtkkCDe0oZwr0R75XeoZJu4Kk9bbl)
 
     (click on the title to go the deployed web app)
 
