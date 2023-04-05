@@ -1,71 +1,84 @@
-<h1>MERN Full Stack Web App</h1>
-        This is a full stack web application developed using the MERN stack. It includes features such as user authentication, patient disease and cure tracking, and profile management.
 
-<h2>Table of Contents</h2>
-<h3>Features
-<h3>Getting Started
-<h3>Prerequisites
-<h2>Installation
-<h2>Usage
-<h2>Built With
-<h2>License
-Features
-User authentication (signup and login)
-Patient disease and cure tracking
-Profile management
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+#  [Kratin Care](https://kratincare.netlify.app)
 
-Prerequisites
-To run this project, you must have Node.js and MongoDB installed on your system.
 
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/mern-full-stack-web-app.git
-Install server dependencies:
-bash
-Copy code
-cd mern-full-stack-web-app/server
-npm install
-Install client dependencies:
-bash
-Copy code
-cd ../client
-npm install
-Create a .env file in the server directory and add the following environment variables:
-makefile
-Copy code
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-Usage
-To run the application, follow these steps:
+1. This a MERN full stack web app where person can signup, login , update profile, and can know the cure for his/her disease using the OpenAI Chatgpt.
 
-Start the MongoDB server:
-Copy code
-mongod
-Start the server:
-bash
-Copy code
-cd server
-npm start
-Start the client:
-bash
-Copy code
-cd ../client
-npm start
-The application should now be running at http://localhost:3000.
+     # Register Page
+      ![Register](https://drive.google.com/uc?export=view&id=17-kp4bQrhby5RYITImWFIp7sgWCEsP0w)
+      
+      # Login Page      
+      ![Login](https://drive.google.com/uc?export=view&id=1W1CRZzTAaP1l4dwweveGs1BpegfYEIJb)
+      
+      # Update Page
+      ![Login](https://drive.google.com/uc?export=view&id=1HbLUY0GIr66IxLiRxE4pRoD7EA8rhv97)
 
-Built With
-MongoDB - NoSQL database used to store application data
-Express - Backend web application framework
-React - Frontend JavaScript library
-Node.js - JavaScript runtime environment
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+2. This also includes the Exercise Tracker for the patient where they can track their exercise on daily basis as well as weekly basis.
 
-Share Prompt
 
-Regenerate response
-Send a message...
+    (click on the title to go the deployed web app)
+
+
+## Tech Stack
+
+**Client:** React, Redux, Material UI, 
+
+**Server:** Node, Express
+
+**DataBase:** Mongodb
+
+**API:** OPENAI  ChatGPT-3 (model - text-davinci-001)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/hiesenebrg/Kratin-Care
+```
+
+Go to the project directory for backend
+
+```bash
+  cd backend 
+```
+
+Go to the project directory for frontend
+
+```bash
+  cd fronend 
+```
+
+Install dependencies for both Backend and Frontend
+
+```bash
+  npm install
+```
+
+Start the server for both Backend and Frontend
+
+```bash
+  npm run start
+```
+
+
+
+
+## Authors
+
+- [@hiesenebrg](https://github.com/hiesenebrg)
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## 🚀 About Me
+I'm a MERN full stack developer...
+
+
+## 🛠 Skills
+Java,Javascript, HTML, CSS, React, Redux, Node, Express, Mongodb 
+
