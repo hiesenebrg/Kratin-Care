@@ -1,14 +1,14 @@
-MERN Full Stack Web App
-This is a full stack web application developed using the MERN stack. It includes features such as user authentication, patient disease and cure tracking, and profile management.
+<h1>MERN Full Stack Web App</h1>
+        This is a full stack web application developed using the MERN stack. It includes features such as user authentication, patient disease and cure tracking, and profile management.
 
-Table of Contents
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
-Built With
-License
+<h2>Table of Contents</h2>
+<h3>Features
+<h3>Getting Started
+<h3>Prerequisites
+<h2>Installation
+<h2>Usage
+<h2>Built With
+<h2>License
 Features
 User authentication (signup and login)
 Patient disease and cure tracking
