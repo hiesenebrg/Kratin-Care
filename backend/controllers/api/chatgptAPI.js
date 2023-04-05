@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 module.exports.getapidata = async function (req, res) {
@@ -26,7 +26,7 @@ module.exports.getapidata = async function (req, res) {
           textgenerated: response.data.choices[0].text,
         },
       });
-    } 
+    }
   } catch (error) {
     console.log("********", error);
     return res.json(500, {

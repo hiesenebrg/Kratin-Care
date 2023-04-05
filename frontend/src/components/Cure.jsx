@@ -20,7 +20,7 @@ const Cure = () => {
           disease: data.data.info.disease,
           from: data.data.info.from,
         });
-        if (res.success) {
+        if (res) {
           console.log(res)
           setCure(res.data);
           setLoading(false);
