@@ -27,7 +27,7 @@ export const updateprofile = async (dispatch, formdata, userid) => {
 
   try {
     const res = await axios.post(
-      `http://localhost:8000/api/user/update/${userid}`,
+      `https://kratin-care.onrender.com/api/user/update/${userid}`,
       formdata,
       {
         headers: {
